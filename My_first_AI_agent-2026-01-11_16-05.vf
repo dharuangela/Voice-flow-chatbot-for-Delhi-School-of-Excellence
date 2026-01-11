@@ -1,0 +1,4191 @@
+{
+  "version": {
+    "_version": 13.06,
+    "autoSaveFromRestore": false,
+    "canvasTemplates": [],
+    "components": [],
+    "creatorID": 1657682,
+    "manualSave": false,
+    "model": {
+      "modelID": "69634e6b8ce92840ae25a4f4"
+    },
+    "name": "Initial Version",
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "6797c2110cfd6c00ccbedd9f",
+          "name": "No",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "I'm good",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "I think I'm good thanks",
+              "slots": []
+            },
+            {
+              "text": "Definitely not",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "Under no circumstances",
+              "slots": []
+            },
+            {
+              "text": "Not at all",
+              "slots": []
+            },
+            {
+              "text": "Nope, not at all",
+              "slots": []
+            },
+            {
+              "text": "No way",
+              "slots": []
+            },
+            {
+              "text": "By no means",
+              "slots": []
+            },
+            {
+              "text": "Not in the slightest",
+              "slots": []
+            },
+            {
+              "text": "No chance",
+              "slots": []
+            },
+            {
+              "text": "Absolutely not",
+              "slots": []
+            },
+            {
+              "text": "Not at all",
+              "slots": []
+            },
+            {
+              "text": "Negative",
+              "slots": []
+            },
+            {
+              "text": "Sorry, no",
+              "slots": []
+            },
+            {
+              "text": "Definitely not",
+              "slots": []
+            },
+            {
+              "text": "That's wrong",
+              "slots": []
+            },
+            {
+              "text": "Incorrect",
+              "slots": []
+            },
+            {
+              "text": "Nope",
+              "slots": []
+            },
+            {
+              "text": "No",
+              "slots": []
+            }
+          ],
+          "noteID": "5ti0h0b61",
+          "description": "Trigger this intent then the user responds negatively"
+        },
+        {
+          "key": "6797c2660cfd6c00ccbeddd1",
+          "name": "Yes",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Definitely",
+              "slots": []
+            },
+            {
+              "text": "Indeed",
+              "slots": []
+            },
+            {
+              "text": "Of course",
+              "slots": []
+            },
+            {
+              "text": "Certainly",
+              "slots": []
+            },
+            {
+              "text": "Without question",
+              "slots": []
+            },
+            {
+              "text": "Sure",
+              "slots": []
+            },
+            {
+              "text": "Definitely",
+              "slots": []
+            },
+            {
+              "text": "You bet",
+              "slots": []
+            },
+            {
+              "text": "Without a doubt",
+              "slots": []
+            },
+            {
+              "text": "By all means",
+              "slots": []
+            },
+            {
+              "text": "Agreed",
+              "slots": []
+            },
+            {
+              "text": "Absolutely",
+              "slots": []
+            },
+            {
+              "text": "That's correct",
+              "slots": []
+            },
+            {
+              "text": "Indeed",
+              "slots": []
+            },
+            {
+              "text": "Affirmative",
+              "slots": []
+            },
+            {
+              "text": "You are right",
+              "slots": []
+            },
+            {
+              "text": "Correct",
+              "slots": []
+            },
+            {
+              "text": "Yep",
+              "slots": []
+            },
+            {
+              "text": "Yes",
+              "slots": []
+            }
+          ],
+          "noteID": "5ti0i0bmo",
+          "description": "Trigger this intent when the user responds positively."
+        },
+        {
+          "key": "696343b28bcc479dce29536e",
+          "name": "Learning about our programs and courses",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "I'd like to know more about your course options. Can you provide some information?",
+              "slots": []
+            },
+            {
+              "text": "How can I find out about the programs you offer?",
+              "slots": []
+            },
+            {
+              "text": "I'm interested in learning about the different courses available. Can you help?",
+              "slots": []
+            },
+            {
+              "text": "What kind of programs and courses do you have?",
+              "slots": []
+            },
+            {
+              "text": "Can you tell me more about the programs and courses offered?",
+              "slots": []
+            }
+          ],
+          "noteID": "5ti0j0bn5",
+          "description": "asked for programs and courses"
+        },
+        {
+          "key": "696344a98bcc479dce29539a",
+          "name": "Student services",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Where can I find information about student health services?",
+              "slots": []
+            },
+            {
+              "text": "I need assistance with my financial aid application. Can you help?",
+              "slots": []
+            },
+            {
+              "text": "Can you help me with finding housing options for students?",
+              "slots": []
+            },
+            {
+              "text": "What resources are available for students with disabilities?",
+              "slots": []
+            },
+            {
+              "text": "How can I access the student counseling services?",
+              "slots": []
+            }
+          ],
+          "noteID": "5ti0k0b84",
+          "description": "Student services"
+        },
+        {
+          "key": "696343f48bcc479dce295379",
+          "name": "Admissions requirements and processes",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Could you walk me through the application process?",
+              "slots": []
+            },
+            {
+              "text": "Are there any specific admission criteria for transfer students?",
+              "slots": []
+            },
+            {
+              "text": "I need more information about the documentation needed for admission.",
+              "slots": []
+            },
+            {
+              "text": "Can you explain the admission process for international students?",
+              "slots": []
+            },
+            {
+              "text": "What are the admissions requirements for the program?",
+              "slots": []
+            }
+          ],
+          "noteID": "5ti0l0b75",
+          "description": "Admissions requirements and processes"
+        },
+        {
+          "key": "696344678bcc479dce29538a",
+          "name": "-Campus information",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "We have branches in Attapur, Banjara and Manikonda",
+              "slots": []
+            },
+            {
+              "text": "What are the dining options available on campus?",
+              "slots": []
+            },
+            {
+              "text": "Where can I find the campus map?",
+              "slots": []
+            },
+            {
+              "text": "I'm looking for the phone number of the admissions office.",
+              "slots": []
+            },
+            {
+              "text": "Can you provide me with the address of the student center?",
+              "slots": []
+            },
+            {
+              "text": "What are the operating hours of the library?",
+              "slots": []
+            }
+          ],
+          "noteID": "5ti0m0b5s",
+          "description": "-Campus information, Branches of the School"
+        },
+        {
+          "key": "6963451b8bcc479dce2953ab",
+          "name": "Or anything else related to DSE Schools Please feel free to ask me anything, and I'll be happy to help!",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "What kind of support services are available for students at DSE Schools?",
+              "slots": []
+            },
+            {
+              "text": "Do DSE Schools offer any specialized programs for students with learning disabilities?",
+              "slots": []
+            },
+            {
+              "text": "I'm curious about the academic performance of students at DSE Schools. Can you provide more information?",
+              "slots": []
+            },
+            {
+              "text": "What is the student-teacher ratio at DSE Schools?",
+              "slots": []
+            },
+            {
+              "text": "Can you tell me more about the extracurricular activities at DSE Schools?",
+              "slots": []
+            }
+          ],
+          "noteID": "5ti0n0buy",
+          "description": "Or anything else related to DSE Schools\nPlease feel free to ask me anything, and I'll be happy to help!"
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "globalNoMatch": {
+          "type": "static",
+          "prompt": {
+            "content": [
+              {
+                "children": [
+                  {
+                    "text": "Sorry, I didn’t get that. Please try again."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "messageDelay": {
+          "durationMilliseconds": 500
+        },
+        "defaultVoice": "elevenlabs:eleven_turbo_v2_5:FGY2WhTYpPnrIDTdsKH5",
+        "deepgramASR": {
+          "silenceWaitMS": 10,
+          "punctuationWaitMS": 1000,
+          "partialWaitMS": 1500,
+          "interruptionWaitWords": 2,
+          "audioCue": null
+        }
+      },
+      "publishing": {
+        "avatar": "https://cdn.voiceflow.com/assets/logo.png",
+        "color": "#397DFF",
+        "description": "Hi, how can I help you today?",
+        "feedback": false,
+        "image": "https://cdn.voiceflow.com/assets/logo.png",
+        "persistence": "localStorage",
+        "position": "right",
+        "spacing": {
+          "side": 24,
+          "bottom": 24
+        },
+        "title": "Your AI agent",
+        "watermark": true,
+        "audioInterface": true
+      },
+      "platform": "webchat"
+    },
+    "programResources": {
+      "flows": {},
+      "agents": {},
+      "prompts": {
+        "69634b794e550e64251566fc": {
+          "settings": {
+            "useStructuredOutput": false,
+            "model": "claude-4-sonnet",
+            "maxTokens": 5000,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": "You are an AI customer support bot helping a customer with their question. Use the provided details below to answer the customers question.\r\nEnsure to keep your answer brief and speak directly to the end customer. You are speaking to them over the phone. Input data: 1. Provided details:{Chunks} \r\nMake sure your response is in the same language as the users last message here:{admission_process}"
+            }
+          ]
+        },
+        "69634bda4e550e64251566ff": {
+          "settings": {
+            "useStructuredOutput": false,
+            "model": "claude-4-sonnet",
+            "maxTokens": 5000,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Student services"
+            }
+          ]
+        },
+        "6963480a4e550e64251566e7": {
+          "settings": {
+            "useStructuredOutput": false,
+            "model": "claude-4-sonnet",
+            "maxTokens": 5000,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": ""
+            }
+          ]
+        },
+        "6963469b4e550e64251566de": {
+          "settings": {
+            "useStructuredOutput": false,
+            "model": "claude-4-sonnet",
+            "maxTokens": 5000,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Generate a single, comprehensive question that best captures the information needed to address the user’s query or intent and includes the context from the conversation history. User's question:${last_utterance} \r\nOnly output the optimized question."
+            }
+          ]
+        },
+        "6963495b4e550e64251566f0": {
+          "settings": {
+            "useStructuredOutput": false,
+            "model": "claude-4-sonnet",
+            "maxTokens": 5000,
+            "temperature": 0.3
+          },
+          "system": "",
+          "messages": [
+            {
+              "role": "user",
+              "content": ""
+            }
+          ]
+        }
+      },
+      "apiTools": {},
+      "messages": {
+        "69634eca8bcc479dce295585": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "How else may I help you today?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "69634fe88bcc479dce2955af": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Hello, this Angela from DSE Schools of education. Thank you for choosing DSE schools."
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "69633ef08bcc479dce2951f0": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "How may I help you today?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        }
+      },
+      "globalPrompts": null,
+      "integrationTools": {},
+      "mcpIntegrationTools": {}
+    },
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "My first AI agent",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "696343b28bcc479dce29536e",
+            "name": "Learning about our programs and courses",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I'd like to know more about your course options. Can you provide some information?",
+                "slots": []
+              },
+              {
+                "text": "How can I find out about the programs you offer?",
+                "slots": []
+              },
+              {
+                "text": "I'm interested in learning about the different courses available. Can you help?",
+                "slots": []
+              },
+              {
+                "text": "What kind of programs and courses do you have?",
+                "slots": []
+              },
+              {
+                "text": "Can you tell me more about the programs and courses offered?",
+                "slots": []
+              }
+            ],
+            "noteID": "5ti0j0bn5",
+            "description": "asked for programs and courses"
+          },
+          {
+            "key": "696344a98bcc479dce29539a",
+            "name": "Student services",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Where can I find information about student health services?",
+                "slots": []
+              },
+              {
+                "text": "I need assistance with my financial aid application. Can you help?",
+                "slots": []
+              },
+              {
+                "text": "Can you help me with finding housing options for students?",
+                "slots": []
+              },
+              {
+                "text": "What resources are available for students with disabilities?",
+                "slots": []
+              },
+              {
+                "text": "How can I access the student counseling services?",
+                "slots": []
+              }
+            ],
+            "noteID": "5ti0k0b84",
+            "description": "Student services"
+          },
+          {
+            "key": "696343f48bcc479dce295379",
+            "name": "Admissions requirements and processes",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Could you walk me through the application process?",
+                "slots": []
+              },
+              {
+                "text": "Are there any specific admission criteria for transfer students?",
+                "slots": []
+              },
+              {
+                "text": "I need more information about the documentation needed for admission.",
+                "slots": []
+              },
+              {
+                "text": "Can you explain the admission process for international students?",
+                "slots": []
+              },
+              {
+                "text": "What are the admissions requirements for the program?",
+                "slots": []
+              }
+            ],
+            "noteID": "5ti0l0b75",
+            "description": "Admissions requirements and processes"
+          },
+          {
+            "key": "696344678bcc479dce29538a",
+            "name": "-Campus information",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "We have branches in Attapur, Banjara and Manikonda",
+                "slots": []
+              },
+              {
+                "text": "What are the dining options available on campus?",
+                "slots": []
+              },
+              {
+                "text": "Where can I find the campus map?",
+                "slots": []
+              },
+              {
+                "text": "I'm looking for the phone number of the admissions office.",
+                "slots": []
+              },
+              {
+                "text": "Can you provide me with the address of the student center?",
+                "slots": []
+              },
+              {
+                "text": "What are the operating hours of the library?",
+                "slots": []
+              }
+            ],
+            "noteID": "5ti0m0b5s",
+            "description": "-Campus information, Branches of the School"
+          },
+          {
+            "key": "None",
+            "name": "None",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "noteID": null
+          }
+        ],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "platform": "webchat",
+        "slotsMap": {},
+        "extraSlots": [],
+        "cmsEntities": {},
+        "extraIntents": [],
+        "cmsVariables": {
+          "sessions": {
+            "isSystem": true,
+            "description": "The number of times a particular user has opened the app.",
+            "defaultValue": null
+          },
+          "user_id": {
+            "isSystem": true,
+            "description": "The user's unique ID.",
+            "defaultValue": null
+          },
+          "timestamp": {
+            "isSystem": true,
+            "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+            "defaultValue": null
+          },
+          "platform": {
+            "isSystem": true,
+            "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+            "defaultValue": null
+          },
+          "locale": {
+            "isSystem": true,
+            "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+            "defaultValue": null
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+            "defaultValue": null
+          },
+          "last_response": {
+            "isSystem": true,
+            "description": "The agent's last response (text/speak) in a string.",
+            "defaultValue": null
+          },
+          "last_event": {
+            "isSystem": true,
+            "description": "The object containing the last event that the user client has triggered.",
+            "defaultValue": null
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "description": "The user's last utterance in a text string.",
+            "defaultValue": null
+          },
+          "vf_memory": {
+            "isSystem": true,
+            "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+            "defaultValue": null
+          },
+          "vf_date": {
+            "isSystem": true,
+            "description": "Current date in the format \"Jan 1, 2025\". You can modify the timezone in project settings.",
+            "defaultValue": null
+          },
+          "vf_time": {
+            "isSystem": true,
+            "description": "Current time in the format \"16:37\". You can modify the timezone in project settings.",
+            "defaultValue": null
+          },
+          "vf_day": {
+            "isSystem": true,
+            "description": "Current day of month in the format \"1\". You can modify the timezone in project settings.",
+            "defaultValue": null
+          },
+          "vf_month": {
+            "isSystem": true,
+            "description": "Current month in the format \"January\". You can modify the timezone in project settings.",
+            "defaultValue": null
+          },
+          "vf_year": {
+            "isSystem": true,
+            "description": "Current year in the format \"2025\". You can modify the timezone in project settings.",
+            "defaultValue": null
+          },
+          "vf_now": {
+            "isSystem": true,
+            "description": "Current date and time in the format \"Jan 1, 2025, 16:37\". You can modify the timezone in project settings.",
+            "defaultValue": null
+          },
+          "vf_user_timezone": {
+            "isSystem": true,
+            "description": "The user's timezone in the format \"America/Toronto\", if available. Defaults to the project timezone.",
+            "defaultValue": null
+          },
+          "simplified_questions": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "Generate a single, comprehensive question that best captures the information needed to address the user’s query or intent and includes the context from the conversation history. User's question:${last_utterance} \nOnly output the optimized question.",
+            "defaultValue": null
+          },
+          "Chunks": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "chunks for sorting the data",
+            "defaultValue": null
+          },
+          "Branches_of_the_school": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "Attapur, Banjara Hills, Manikonda",
+            "defaultValue": null
+          },
+          "Student_services": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "Services available for the students",
+            "defaultValue": null
+          },
+          "admission_process": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "process and requirements",
+            "defaultValue": null
+          }
+        },
+        "usedIntentsSet": [
+          "696343b28bcc479dce29536e",
+          "696343f48bcc479dce295379",
+          "696344678bcc479dce29538a",
+          "696344a98bcc479dce29539a"
+        ],
+        "functionDefinitions": {},
+        "referencedAgentsIDs": [],
+        "referencedPromptIDs": [
+          "6963469b4e550e64251566de",
+          "6963480a4e550e64251566e7",
+          "6963495b4e550e64251566f0",
+          "69634bda4e550e64251566ff",
+          "69634b794e550e64251566fc"
+        ],
+        "referencedAPIToolIDs": [],
+        "referencedResponseIDs": [
+          "69633ef08bcc479dce2951f0",
+          "69634eca8bcc479dce295585",
+          "69634fe88bcc479dce2955af"
+        ],
+        "referencedIntegrationToolIDs": [],
+        "referencedMCPIntegrationToolIDs": [],
+        "interfaces": [],
+        "permissions": [],
+        "usedEventsSet": [],
+        "goToIntentsSet": []
+      },
+      "settings": {},
+      "platform": "webchat"
+    },
+    "settings": {
+      "memory": {
+        "turns": 25
+      },
+      "intentClassification": {
+        "type": "rag",
+        "params": {
+          "model": "claude-3.5-haiku",
+          "temperature": 0.1
+        },
+        "promptWrapper": null
+      },
+      "voice": {
+        "failureMessage": "We’re sorry, but the call cannot be completed at this time. Please try again later.",
+        "hasCallRecording": false,
+        "tts": {
+          "provider": "elevenlabs",
+          "voice": "FGY2WhTYpPnrIDTdsKH5",
+          "model": "eleven_turbo_v2_5",
+          "settings": {}
+        }
+      },
+      "globalNoMatch": {
+        "type": "static",
+        "prompt": [
+          {
+            "text": [
+              "Sorry, I didn’t get that. Please try again."
+            ]
+          }
+        ]
+      }
+    },
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "64dbb6696a8fab0013dba194"
+      }
+    ],
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory",
+      "vf_date",
+      "vf_time",
+      "vf_day",
+      "vf_month",
+      "vf_year",
+      "vf_now",
+      "vf_user_timezone",
+      "simplified_questions",
+      "Chunks",
+      "Branches_of_the_school",
+      "Student_services",
+      "admission_process"
+    ],
+    "_id": "6842ec55e8b75ad3ae0f4d11",
+    "updatedAt": "2026-01-11T08:54:22.385Z",
+    "publishedAt": "2024-09-27T16:54:27.996Z",
+    "domains": [
+      {
+        "id": "cla06iyr900b206pkh8d4ap8n",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64dbb6696a8fab0013dba194"
+        ],
+        "rootDiagramID": "64dbb6696a8fab0013dba194",
+        "updatedBy": 1657682,
+        "updatedAt": "2025-06-06T13:25:41.106Z"
+      }
+    ],
+    "projectID": "6842ec55e8b75ad3ae0f4d10",
+    "rootDiagramID": "64dbb6696a8fab0013dba194",
+    "templateDiagramID": "64dbb6696a8fab0013dba195"
+  },
+  "diagrams": {
+    "64dbb6696a8fab0013dba195": {
+      "name": "Template Diagram",
+      "type": "TEMPLATE",
+      "zoom": 100,
+      "nodes": {},
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1701833501,
+      "creatorID": 1657682,
+      "variables": [],
+      "menuItems": [],
+      "_id": "6842ec55e8b75ad3ae0f4d13",
+      "diagramID": "64dbb6696a8fab0013dba195",
+      "versionID": "6842ec55e8b75ad3ae0f4d11"
+    },
+    "64dbb6696a8fab0013dba194": {
+      "name": "ROOT",
+      "type": "TOPIC",
+      "zoom": 56.666666666666636,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "6963501e412e45baf05f7f17",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "color": "#56b365"
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            -1038.7784477349592,
+            -896.9171937471364
+          ]
+        },
+        "69633f26412e45baf05f7e1c": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "69633f26412e45baf05f7e1d",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -136.84,
+                          279.11
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          -168.01,
+                          279.11
+                        ]
+                      },
+                      {
+                        "point": [
+                          -168.01,
+                          437.15
+                        ]
+                      },
+                      {
+                        "point": [
+                          -144.01,
+                          437.15
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "69633ef08bcc479dce2951f0"
+          },
+          "nodeID": "69633f26412e45baf05f7e1c"
+        },
+        "69633f26412e45baf05f7e1e": {
+          "type": "block",
+          "data": {
+            "name": "New Block 2",
+            "steps": [
+              "69633f26412e45baf05f7e1c",
+              "696342f7412e45baf05f7e38"
+            ],
+            "color": ""
+          },
+          "nodeID": "69633f26412e45baf05f7e1e",
+          "coords": [
+            -274.3102737711051,
+            -790.4570479448088
+          ]
+        },
+        "696342f7412e45baf05f7e38": {
+          "type": "choice-v2",
+          "data": {
+            "name": "Choice",
+            "items": [
+              {
+                "id": "cmk9cspen01bf3589484qemvk",
+                "intentID": "696343b28bcc479dce29536e",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              },
+              {
+                "id": "cmk9cwubj01ei35894k582e3w",
+                "intentID": "696343f48bcc479dce295379",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              },
+              {
+                "id": "cmk9cyl7g01go35895e6x0be9",
+                "intentID": "696344678bcc479dce29538a",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              },
+              {
+                "id": "cmk9d0oaw01hw35895pvlrsit",
+                "intentID": "696344a98bcc479dce29539a",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmk9cspen01bf3589484qemvk": {
+                  "id": "69634333412e45baf05f7e47",
+                  "target": "696345f6412e45baf05f7e85",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -107.91,
+                          -643.66
+                        ]
+                      },
+                      {
+                        "point": [
+                          -82.74,
+                          -643.66
+                        ]
+                      },
+                      {
+                        "point": [
+                          -82.74,
+                          -902.97
+                        ]
+                      },
+                      {
+                        "point": [
+                          -57.56,
+                          -902.97
+                        ],
+                        "allowedToTop": true
+                      }
+                    ],
+                    "color": "#CB627B"
+                  }
+                },
+                "cmk9cwubj01ei35894k582e3w": {
+                  "id": "696343f4412e45baf05f7e4a",
+                  "target": "69634831412e45baf05f7e97",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -107.91,
+                          -573.26
+                        ]
+                      },
+                      {
+                        "point": [
+                          -64.24,
+                          -573.26
+                        ]
+                      },
+                      {
+                        "point": [
+                          -64.24,
+                          -644.82
+                        ]
+                      },
+                      {
+                        "point": [
+                          -20.56,
+                          -644.82
+                        ],
+                        "allowedToTop": true
+                      }
+                    ],
+                    "color": "#56b365"
+                  }
+                },
+                "cmk9cyl7g01go35895e6x0be9": {
+                  "id": "69634445412e45baf05f7e4d",
+                  "target": "6963496c412e45baf05f7ea6",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -107.91,
+                          -511.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          -52.24,
+                          -511.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          -52.24,
+                          -428.82
+                        ]
+                      },
+                      {
+                        "point": [
+                          3.44,
+                          -428.82
+                        ],
+                        "allowedToTop": true
+                      }
+                    ],
+                    "color": "#d58492"
+                  }
+                },
+                "cmk9d0oaw01hw35895pvlrsit": {
+                  "id": "696344a6412e45baf05f7e50",
+                  "target": "69634ae8412e45baf05f7ebe",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -107.91,
+                          -457.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          -70.24,
+                          -457.06
+                        ]
+                      },
+                      {
+                        "point": [
+                          -70.24,
+                          -98.82
+                        ]
+                      },
+                      {
+                        "point": [
+                          -32.56,
+                          -98.82
+                        ],
+                        "allowedToTop": true
+                      }
+                    ],
+                    "color": "#dc8879"
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "696342f7412e45baf05f7e38",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "696345f6412e45baf05f7e83": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmk9d9i7s01t63589my34x8iv",
+                "type": "prompt",
+                "label": null,
+                "value": "6963469b4e550e64251566de",
+                "variableID": "696347418bcc479dce2953f8"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "696345f6412e45baf05f7e84"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "696345f6412e45baf05f7e83"
+        },
+        "696345f6412e45baf05f7e85": {
+          "type": "block",
+          "data": {
+            "name": "Learning about our programs and courses",
+            "steps": [
+              "696345f6412e45baf05f7e83",
+              "69634893412e45baf05f7e9f"
+            ],
+            "color": ""
+          },
+          "nodeID": "696345f6412e45baf05f7e85",
+          "coords": [
+            107.43940329061928,
+            -929.9676277746904
+          ]
+        },
+        "69634831412e45baf05f7e95": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmk9dk9vd01zp3589dbb0xfd1",
+                "type": "prompt",
+                "label": null,
+                "value": "6963480a4e550e64251566e7",
+                "variableID": "696349fd8bcc479dce295453"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "69634831412e45baf05f7e96"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "69634831412e45baf05f7e95"
+        },
+        "69634831412e45baf05f7e97": {
+          "type": "block",
+          "data": {
+            "name": "Admission requirements",
+            "steps": [
+              "69634831412e45baf05f7e95",
+              "696349d8412e45baf05f7eb2"
+            ],
+            "color": ""
+          },
+          "nodeID": "69634831412e45baf05f7e97",
+          "coords": [
+            144.4394032906194,
+            -671.8247706318333
+          ]
+        },
+        "69634893412e45baf05f7e9f": {
+          "type": "kb-search",
+          "data": {
+            "name": "",
+            "question": [
+              {
+                "text": [
+                  "{simplified questions}"
+                ]
+              }
+            ],
+            "maxChunks": 2,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "69634caf412e45baf05f7efd",
+                  "id": "69634893412e45baf05f7ea0",
+                  "data": {
+                    "color": "#91a26c"
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "variableID": "696349008bcc479dce29542c"
+          },
+          "nodeID": "69634893412e45baf05f7e9f"
+        },
+        "6963496c412e45baf05f7ea4": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmk9dr4m0022r3589tv7oh165",
+                "type": "prompt",
+                "label": null,
+                "value": "6963495b4e550e64251566f0",
+                "variableID": "69634a7f8bcc479dce295470"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "6963496c412e45baf05f7ea5"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "6963496c412e45baf05f7ea4"
+        },
+        "6963496c412e45baf05f7ea6": {
+          "type": "block",
+          "data": {
+            "name": "Campus Information",
+            "steps": [
+              "6963496c412e45baf05f7ea4",
+              "69634a6b412e45baf05f7eb7"
+            ],
+            "color": ""
+          },
+          "nodeID": "6963496c412e45baf05f7ea6",
+          "coords": [
+            168.43940329061942,
+            -455.82477063183313
+          ]
+        },
+        "696349d8412e45baf05f7eb2": {
+          "type": "kb-search",
+          "data": {
+            "name": "",
+            "maxChunks": 2,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "69634caf412e45baf05f7efd",
+                  "id": "696349d8412e45baf05f7eb3",
+                  "data": {
+                    "color": "#9497ce"
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "question": [
+              {
+                "text": [
+                  "{simplified questions}"
+                ]
+              }
+            ],
+            "variableID": "696349008bcc479dce29542c"
+          },
+          "nodeID": "696349d8412e45baf05f7eb2"
+        },
+        "69634a6b412e45baf05f7eb7": {
+          "type": "kb-search",
+          "data": {
+            "name": "",
+            "question": [
+              {
+                "text": [
+                  "School Branches"
+                ]
+              }
+            ],
+            "maxChunks": 3,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "69634caf412e45baf05f7efb",
+                  "id": "69634a6b412e45baf05f7eb8",
+                  "data": {
+                    "color": "#c78f6d"
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "variableID": "69634a7f8bcc479dce295470"
+          },
+          "nodeID": "69634a6b412e45baf05f7eb7"
+        },
+        "69634ae8412e45baf05f7ebc": {
+          "type": "set-v3",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmk9dzikr027z3589pn4kf9pu",
+                "type": "prompt",
+                "label": null,
+                "value": "69634bda4e550e64251566ff",
+                "variableID": "69634b1f8bcc479dce2954d8"
+              }
+            ],
+            "label": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "69634caf412e45baf05f7efd",
+                  "id": "69634ae8412e45baf05f7ebd",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          298.84,
+                          -39.02
+                        ]
+                      },
+                      {
+                        "point": [
+                          478.85,
+                          -39.02
+                        ]
+                      },
+                      {
+                        "point": [
+                          478.85,
+                          -604.25
+                        ]
+                      },
+                      {
+                        "point": [
+                          658.87,
+                          -604.25
+                        ],
+                        "allowedToTop": true
+                      }
+                    ],
+                    "color": "#be87ce"
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "69634ae8412e45baf05f7ebc"
+        },
+        "69634ae8412e45baf05f7ebe": {
+          "type": "block",
+          "data": {
+            "name": "Student services",
+            "steps": [
+              "69634ae8412e45baf05f7ebc"
+            ],
+            "color": ""
+          },
+          "nodeID": "69634ae8412e45baf05f7ebe",
+          "coords": [
+            132.4394032906194,
+            -125.82477063183302
+          ]
+        },
+        "69634ef3412e45baf05f7f0b": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "696342f7412e45baf05f7e38",
+                  "id": "69634ef3412e45baf05f7f0c",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1263.14,
+                          83.06
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          -195.39,
+                          83.06
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -195.39,
+                          -651.86
+                        ],
+                        "locked": true
+                      },
+                      {
+                        "point": [
+                          -107.91,
+                          -651.86
+                        ],
+                        "reversed": true
+                      }
+                    ],
+                    "color": "#8e98ce"
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "69634eca8bcc479dce295585"
+          },
+          "nodeID": "69634ef3412e45baf05f7f0b"
+        },
+        "69634ef3412e45baf05f7f0d": {
+          "type": "block",
+          "data": {
+            "name": "Prompt for more questions",
+            "steps": [
+              "69634ef3412e45baf05f7f0b"
+            ],
+            "color": ""
+          },
+          "nodeID": "69634ef3412e45baf05f7f0d",
+          "coords": [
+            1429.543299394515,
+            4.4609436538812774
+          ]
+        },
+        "6963501e412e45baf05f7f17": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "69633f26412e45baf05f7e1e",
+                  "id": "6963501e412e45baf05f7f18",
+                  "data": {
+                    "color": "#5b9fd7"
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "69634fe88bcc479dce2955af"
+          },
+          "nodeID": "6963501e412e45baf05f7f17"
+        },
+        "6963501e412e45baf05f7f19": {
+          "type": "block",
+          "data": {
+            "name": "Customer service",
+            "steps": [
+              "6963501e412e45baf05f7f17"
+            ],
+            "color": ""
+          },
+          "nodeID": "6963501e412e45baf05f7f19",
+          "coords": [
+            -702.2461949308023,
+            -967.0379439338209
+          ]
+        },
+        "69634caf412e45baf05f7efb": {
+          "type": "response-prompt",
+          "data": {
+            "name": "Untitled prompt",
+            "promptID": "69634b794e550e64251566fc",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "69634ef3412e45baf05f7f0d",
+                  "id": "69634caf412e45baf05f7efc",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          990.27,
+                          -544.45
+                        ]
+                      },
+                      {
+                        "point": [
+                          1127.41,
+                          -544.45
+                        ]
+                      },
+                      {
+                        "point": [
+                          1127.41,
+                          31.46
+                        ]
+                      },
+                      {
+                        "point": [
+                          1264.54,
+                          31.46
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "69634caf412e45baf05f7efb"
+        },
+        "69634caf412e45baf05f7efd": {
+          "type": "block",
+          "data": {
+            "name": "Create answer for customer",
+            "color": "",
+            "steps": [
+              "69634caf412e45baf05f7efb"
+            ]
+          },
+          "nodeID": "69634caf412e45baf05f7efd",
+          "coords": [
+            823.8679747191909,
+            -631.2533420604044
+          ]
+        }
+      },
+      "offsetX": 721.0591644669128,
+      "offsetY": 579.789392974159,
+      "modified": 1701833501,
+      "creatorID": 1657682,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "6842ec55e8b75ad3ae0f4d14",
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "versionID": "6842ec55e8b75ad3ae0f4d11"
+    }
+  },
+  "flows": [],
+  "entities": [],
+  "entityVariants": [],
+  "intents": [
+    {
+      "id": "None",
+      "name": "None",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedd9f",
+      "name": "No",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Trigger this intent then the user responds negatively",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd1",
+      "name": "Yes",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Trigger this intent when the user responds positively.",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "696343b28bcc479dce29536e",
+      "name": "Learning about our programs and courses",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "asked for programs and courses",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2026-01-11T06:31:14.000Z",
+      "updatedAt": "2026-01-11T06:31:14.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "696344a98bcc479dce29539a",
+      "name": "Student services",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Student services",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2026-01-11T06:35:22.000Z",
+      "updatedAt": "2026-01-11T06:35:22.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "696343f48bcc479dce295379",
+      "name": "Admissions requirements and processes",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Admissions requirements and processes",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2026-01-11T06:32:20.000Z",
+      "updatedAt": "2026-01-11T06:32:20.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "696344678bcc479dce29538a",
+      "name": "-Campus information",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "-Campus information, Branches of the School",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2026-01-11T06:34:15.000Z",
+      "updatedAt": "2026-01-11T06:34:15.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "6963451b8bcc479dce2953ab",
+      "name": "Or anything else related to DSE Schools Please feel free to ask me anything, and I'll be happy to help!",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Or anything else related to DSE Schools\nPlease feel free to ask me anything, and I'll be happy to help!",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2026-01-11T06:37:16.000Z",
+      "updatedAt": "2026-01-11T06:37:16.000Z",
+      "updatedByID": 1657682
+    }
+  ],
+  "utterances": [
+    {
+      "id": "6797c2110cfd6c00ccbedda0",
+      "text": [
+        {
+          "text": [
+            "I'm good"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda1",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda2",
+      "text": [
+        {
+          "text": [
+            "I think I'm good thanks"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda3",
+      "text": [
+        {
+          "text": [
+            "Definitely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda4",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda5",
+      "text": [
+        {
+          "text": [
+            "Under no circumstances"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda6",
+      "text": [
+        {
+          "text": [
+            "Not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda7",
+      "text": [
+        {
+          "text": [
+            "Nope, not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda8",
+      "text": [
+        {
+          "text": [
+            "No way"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbedda9",
+      "text": [
+        {
+          "text": [
+            "By no means"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddaa",
+      "text": [
+        {
+          "text": [
+            "Not in the slightest"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddab",
+      "text": [
+        {
+          "text": [
+            "No chance"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddac",
+      "text": [
+        {
+          "text": [
+            "Absolutely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddad",
+      "text": [
+        {
+          "text": [
+            "Not at all"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddae",
+      "text": [
+        {
+          "text": [
+            "Negative"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddaf",
+      "text": [
+        {
+          "text": [
+            "Sorry, no"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb0",
+      "text": [
+        {
+          "text": [
+            "Definitely not"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb1",
+      "text": [
+        {
+          "text": [
+            "That's wrong"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb2",
+      "text": [
+        {
+          "text": [
+            "Incorrect"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb3",
+      "text": [
+        {
+          "text": [
+            "Nope"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2110cfd6c00ccbeddb4",
+      "text": [
+        {
+          "text": [
+            "No"
+          ]
+        }
+      ],
+      "intentID": "6797c2110cfd6c00ccbedd9f",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd2",
+      "text": [
+        {
+          "text": [
+            "Definitely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd3",
+      "text": [
+        {
+          "text": [
+            "Indeed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd4",
+      "text": [
+        {
+          "text": [
+            "Of course"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd5",
+      "text": [
+        {
+          "text": [
+            "Certainly"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd6",
+      "text": [
+        {
+          "text": [
+            "Without question"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd7",
+      "text": [
+        {
+          "text": [
+            "Sure"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd8",
+      "text": [
+        {
+          "text": [
+            "Definitely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddd9",
+      "text": [
+        {
+          "text": [
+            "You bet"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddda",
+      "text": [
+        {
+          "text": [
+            "Without a doubt"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddb",
+      "text": [
+        {
+          "text": [
+            "By all means"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddc",
+      "text": [
+        {
+          "text": [
+            "Agreed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddd",
+      "text": [
+        {
+          "text": [
+            "Absolutely"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbeddde",
+      "text": [
+        {
+          "text": [
+            "That's correct"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedddf",
+      "text": [
+        {
+          "text": [
+            "Indeed"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedde0",
+      "text": [
+        {
+          "text": [
+            "Affirmative"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c2660cfd6c00ccbedde1",
+      "text": [
+        {
+          "text": [
+            "You are right"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c3060cfd6c00ccbede5c",
+      "text": [
+        {
+          "text": [
+            "Correct"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c3080cfd6c00ccbede5d",
+      "text": [
+        {
+          "text": [
+            "Yep"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "6797c3090cfd6c00ccbede5e",
+      "text": [
+        {
+          "text": [
+            "Yes"
+          ]
+        }
+      ],
+      "intentID": "6797c2660cfd6c00ccbeddd1",
+      "language": "en-us",
+      "createdAt": "2025-06-06T13:25:41.000Z"
+    },
+    {
+      "id": "696343b28bcc479dce29536f",
+      "text": [
+        {
+          "text": [
+            "I'd like to know more about your course options. Can you provide some information?"
+          ]
+        }
+      ],
+      "intentID": "696343b28bcc479dce29536e",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:31:14.000Z"
+    },
+    {
+      "id": "696343b28bcc479dce295370",
+      "text": [
+        {
+          "text": [
+            "How can I find out about the programs you offer?"
+          ]
+        }
+      ],
+      "intentID": "696343b28bcc479dce29536e",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:31:14.000Z"
+    },
+    {
+      "id": "696343b28bcc479dce295371",
+      "text": [
+        {
+          "text": [
+            "I'm interested in learning about the different courses available. Can you help?"
+          ]
+        }
+      ],
+      "intentID": "696343b28bcc479dce29536e",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:31:14.000Z"
+    },
+    {
+      "id": "696343b28bcc479dce295372",
+      "text": [
+        {
+          "text": [
+            "What kind of programs and courses do you have?"
+          ]
+        }
+      ],
+      "intentID": "696343b28bcc479dce29536e",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:31:14.000Z"
+    },
+    {
+      "id": "696343b28bcc479dce295373",
+      "text": [
+        {
+          "text": [
+            "Can you tell me more about the programs and courses offered?"
+          ]
+        }
+      ],
+      "intentID": "696343b28bcc479dce29536e",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:31:14.000Z"
+    },
+    {
+      "id": "696343f48bcc479dce29537a",
+      "text": [
+        {
+          "text": [
+            "Could you walk me through the application process?"
+          ]
+        }
+      ],
+      "intentID": "696343f48bcc479dce295379",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:32:20.000Z"
+    },
+    {
+      "id": "696343f48bcc479dce29537b",
+      "text": [
+        {
+          "text": [
+            "Are there any specific admission criteria for transfer students?"
+          ]
+        }
+      ],
+      "intentID": "696343f48bcc479dce295379",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:32:20.000Z"
+    },
+    {
+      "id": "696343f48bcc479dce29537c",
+      "text": [
+        {
+          "text": [
+            "I need more information about the documentation needed for admission."
+          ]
+        }
+      ],
+      "intentID": "696343f48bcc479dce295379",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:32:20.000Z"
+    },
+    {
+      "id": "696343f48bcc479dce29537d",
+      "text": [
+        {
+          "text": [
+            "Can you explain the admission process for international students?"
+          ]
+        }
+      ],
+      "intentID": "696343f48bcc479dce295379",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:32:20.000Z"
+    },
+    {
+      "id": "696343f48bcc479dce29537e",
+      "text": [
+        {
+          "text": [
+            "What are the admissions requirements for the program?"
+          ]
+        }
+      ],
+      "intentID": "696343f48bcc479dce295379",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:32:20.000Z"
+    },
+    {
+      "id": "696344678bcc479dce29538b",
+      "text": [
+        {
+          "text": [
+            "We have branches in Attapur, Banjara and Manikonda"
+          ]
+        }
+      ],
+      "intentID": "696344678bcc479dce29538a",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:34:15.000Z"
+    },
+    {
+      "id": "696344678bcc479dce29538c",
+      "text": [
+        {
+          "text": [
+            "What are the dining options available on campus?"
+          ]
+        }
+      ],
+      "intentID": "696344678bcc479dce29538a",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:34:15.000Z"
+    },
+    {
+      "id": "696344678bcc479dce29538d",
+      "text": [
+        {
+          "text": [
+            "Where can I find the campus map?"
+          ]
+        }
+      ],
+      "intentID": "696344678bcc479dce29538a",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:34:15.000Z"
+    },
+    {
+      "id": "696344678bcc479dce29538e",
+      "text": [
+        {
+          "text": [
+            "I'm looking for the phone number of the admissions office."
+          ]
+        }
+      ],
+      "intentID": "696344678bcc479dce29538a",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:34:15.000Z"
+    },
+    {
+      "id": "696344678bcc479dce29538f",
+      "text": [
+        {
+          "text": [
+            "Can you provide me with the address of the student center?"
+          ]
+        }
+      ],
+      "intentID": "696344678bcc479dce29538a",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:34:15.000Z"
+    },
+    {
+      "id": "696344678bcc479dce295390",
+      "text": [
+        {
+          "text": [
+            "What are the operating hours of the library?"
+          ]
+        }
+      ],
+      "intentID": "696344678bcc479dce29538a",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:34:15.000Z"
+    },
+    {
+      "id": "696344a98bcc479dce29539b",
+      "text": [
+        {
+          "text": [
+            "Where can I find information about student health services?"
+          ]
+        }
+      ],
+      "intentID": "696344a98bcc479dce29539a",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:35:22.000Z"
+    },
+    {
+      "id": "696344a98bcc479dce29539c",
+      "text": [
+        {
+          "text": [
+            "I need assistance with my financial aid application. Can you help?"
+          ]
+        }
+      ],
+      "intentID": "696344a98bcc479dce29539a",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:35:22.000Z"
+    },
+    {
+      "id": "696344a98bcc479dce29539d",
+      "text": [
+        {
+          "text": [
+            "Can you help me with finding housing options for students?"
+          ]
+        }
+      ],
+      "intentID": "696344a98bcc479dce29539a",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:35:22.000Z"
+    },
+    {
+      "id": "696344a98bcc479dce29539e",
+      "text": [
+        {
+          "text": [
+            "What resources are available for students with disabilities?"
+          ]
+        }
+      ],
+      "intentID": "696344a98bcc479dce29539a",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:35:22.000Z"
+    },
+    {
+      "id": "696344a98bcc479dce29539f",
+      "text": [
+        {
+          "text": [
+            "How can I access the student counseling services?"
+          ]
+        }
+      ],
+      "intentID": "696344a98bcc479dce29539a",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:35:22.000Z"
+    },
+    {
+      "id": "6963451b8bcc479dce2953ac",
+      "text": [
+        {
+          "text": [
+            "What kind of support services are available for students at DSE Schools?"
+          ]
+        }
+      ],
+      "intentID": "6963451b8bcc479dce2953ab",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:37:16.000Z"
+    },
+    {
+      "id": "6963451b8bcc479dce2953ad",
+      "text": [
+        {
+          "text": [
+            "Do DSE Schools offer any specialized programs for students with learning disabilities?"
+          ]
+        }
+      ],
+      "intentID": "6963451b8bcc479dce2953ab",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:37:16.000Z"
+    },
+    {
+      "id": "6963451b8bcc479dce2953ae",
+      "text": [
+        {
+          "text": [
+            "I'm curious about the academic performance of students at DSE Schools. Can you provide more information?"
+          ]
+        }
+      ],
+      "intentID": "6963451b8bcc479dce2953ab",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:37:16.000Z"
+    },
+    {
+      "id": "6963451b8bcc479dce2953af",
+      "text": [
+        {
+          "text": [
+            "What is the student-teacher ratio at DSE Schools?"
+          ]
+        }
+      ],
+      "intentID": "6963451b8bcc479dce2953ab",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:37:16.000Z"
+    },
+    {
+      "id": "6963451b8bcc479dce2953b0",
+      "text": [
+        {
+          "text": [
+            "Can you tell me more about the extracurricular activities at DSE Schools?"
+          ]
+        }
+      ],
+      "intentID": "6963451b8bcc479dce2953ab",
+      "language": "en-us",
+      "createdAt": "2026-01-11T06:37:16.000Z"
+    }
+  ],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [
+    {
+      "id": "69633ca38bcc479dce295141",
+      "name": "",
+      "createdByID": 1657682,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2026-01-11T06:01:07.000Z",
+      "updatedAt": "2026-01-11T06:01:38.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634eca8bcc479dce295585",
+      "name": "",
+      "createdByID": 1657682,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2026-01-11T07:18:35.000Z",
+      "updatedAt": "2026-01-11T07:18:49.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634fe88bcc479dce2955af",
+      "name": "",
+      "createdByID": 1657682,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2026-01-11T07:23:20.000Z",
+      "updatedAt": "2026-01-11T07:23:25.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69633f728bcc479dce29520a",
+      "name": "",
+      "createdByID": 1657682,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2026-01-11T06:13:07.000Z",
+      "updatedAt": "2026-01-11T06:13:23.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69633ef08bcc479dce2951f0",
+      "name": "",
+      "createdByID": 1657682,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2026-01-11T06:10:56.000Z",
+      "updatedAt": "2026-01-11T06:11:04.000Z",
+      "updatedByID": 1657682
+    }
+  ],
+  "responseMessages": [
+    {
+      "id": "69633ca38bcc479dce295143",
+      "discriminatorID": "69633ca38bcc479dce295142",
+      "text": [
+        {
+          "text": [
+            "Are you looking for "
+          ]
+        },
+        {
+          "text": [
+            "-Learning about our programs and courses\r\n-Admissions requirements and processes\r\n-Campus information\r\n-Student services\r\nOr anything else related to DSE Schools\r\nPlease feel free to ask me anything, and I'll be happy to help!"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2026-01-11T06:01:07.000Z"
+    },
+    {
+      "id": "69633f728bcc479dce29520c",
+      "discriminatorID": "69633f728bcc479dce29520b",
+      "text": [
+        {
+          "text": [
+            "You can contact us on "
+          ]
+        },
+        {
+          "text": [
+            "9248019123, 9248072019 or 9652500511"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2026-01-11T06:13:07.000Z"
+    },
+    {
+      "id": "69633ef08bcc479dce2951f2",
+      "discriminatorID": "69633ef08bcc479dce2951f1",
+      "text": [
+        {
+          "text": [
+            "How may I help you today?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2026-01-11T06:10:56.000Z"
+    },
+    {
+      "id": "69634eca8bcc479dce295587",
+      "discriminatorID": "69634eca8bcc479dce295586",
+      "text": [
+        {
+          "text": [
+            "How else may I help you today?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2026-01-11T07:18:35.000Z"
+    },
+    {
+      "id": "69634fe88bcc479dce2955b1",
+      "discriminatorID": "69634fe88bcc479dce2955b0",
+      "text": [
+        {
+          "text": [
+            "Hello, this Angela from DSE Schools of education. Thank you for choosing DSE schools."
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2026-01-11T07:23:20.000Z"
+    }
+  ],
+  "responseDiscriminators": [
+    {
+      "id": "69633ca38bcc479dce295142",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "69633ca38bcc479dce295141",
+      "variantOrder": [
+        "69633ca38bcc479dce295143"
+      ],
+      "createdAt": "2026-01-11T06:01:07.000Z"
+    },
+    {
+      "id": "69633f728bcc479dce29520b",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "69633f728bcc479dce29520a",
+      "variantOrder": [
+        "69633f728bcc479dce29520c"
+      ],
+      "createdAt": "2026-01-11T06:13:07.000Z"
+    },
+    {
+      "id": "69633ef08bcc479dce2951f1",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "69633ef08bcc479dce2951f0",
+      "variantOrder": [
+        "69633ef08bcc479dce2951f2"
+      ],
+      "createdAt": "2026-01-11T06:10:56.000Z"
+    },
+    {
+      "id": "69634eca8bcc479dce295586",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "69634eca8bcc479dce295585",
+      "variantOrder": [
+        "69634eca8bcc479dce295587"
+      ],
+      "createdAt": "2026-01-11T07:18:35.000Z"
+    },
+    {
+      "id": "69634fe88bcc479dce2955b0",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "69634fe88bcc479dce2955af",
+      "variantOrder": [
+        "69634fe88bcc479dce2955b1"
+      ],
+      "createdAt": "2026-01-11T07:23:20.000Z"
+    }
+  ],
+  "variables": [
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2025-06-06T13:25:41.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "vf_date",
+      "name": "vf_date",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "date",
+      "description": "Current date in the format \"Jan 1, 2025\". You can modify the timezone in project settings.",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T02:45:02.000Z",
+      "updatedAt": "2026-01-11T02:45:02.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "vf_time",
+      "name": "vf_time",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Current time in the format \"16:37\". You can modify the timezone in project settings.",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T02:45:02.000Z",
+      "updatedAt": "2026-01-11T02:45:02.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "vf_day",
+      "name": "vf_day",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "Current day of month in the format \"1\". You can modify the timezone in project settings.",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T02:45:02.000Z",
+      "updatedAt": "2026-01-11T02:45:02.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "vf_month",
+      "name": "vf_month",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Current month in the format \"January\". You can modify the timezone in project settings.",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T02:45:02.000Z",
+      "updatedAt": "2026-01-11T02:45:02.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "vf_year",
+      "name": "vf_year",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "Current year in the format \"2025\". You can modify the timezone in project settings.",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T02:45:02.000Z",
+      "updatedAt": "2026-01-11T02:45:02.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "vf_now",
+      "name": "vf_now",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "date",
+      "description": "Current date and time in the format \"Jan 1, 2025, 16:37\". You can modify the timezone in project settings.",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T02:45:02.000Z",
+      "updatedAt": "2026-01-11T02:45:02.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "vf_user_timezone",
+      "name": "vf_user_timezone",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's timezone in the format \"America/Toronto\", if available. Defaults to the project timezone.",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T02:45:02.000Z",
+      "updatedAt": "2026-01-11T02:45:02.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "696347418bcc479dce2953f8",
+      "name": "simplified_questions",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "Generate a single, comprehensive question that best captures the information needed to address the user’s query or intent and includes the context from the conversation history. User's question:${last_utterance} \nOnly output the optimized question.",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T06:46:25.000Z",
+      "updatedAt": "2026-01-11T06:46:25.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "696349008bcc479dce29542c",
+      "name": "Chunks",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#CB627B",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "chunks for sorting the data",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T06:53:53.000Z",
+      "updatedAt": "2026-01-11T06:53:53.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634a7f8bcc479dce295470",
+      "name": "Branches_of_the_school",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#56B365",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "Attapur, Banjara Hills, Manikonda",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T07:00:16.000Z",
+      "updatedAt": "2026-01-11T07:00:16.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634b1f8bcc479dce2954d8",
+      "name": "Student_services",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "Services available for the students",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T07:02:56.000Z",
+      "updatedAt": "2026-01-11T07:02:56.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "696349fd8bcc479dce295453",
+      "name": "admission_process",
+      "createdByID": 1657682,
+      "folderID": null,
+      "color": "#5B9FD7",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "process and requirements",
+      "defaultValue": null,
+      "createdAt": "2026-01-11T06:58:05.000Z",
+      "updatedAt": "2026-01-11T07:35:04.000Z",
+      "updatedByID": 1657682
+    }
+  ],
+  "workflows": [
+    {
+      "id": "66df755be937eb000784abb2",
+      "name": "Start workflow",
+      "createdByID": 1657682,
+      "folderID": null,
+      "status": null,
+      "isStart": true,
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "assigneeID": null,
+      "description": "",
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2026-01-11T10:17:00.000Z",
+      "updatedByID": 1657682
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "prompts": [
+    {
+      "id": "69634ace4e550e64251566f6",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "services for students",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "69634ace4e550e64251566f7",
+        "69634ace4e550e64251566f8"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T07:01:34.000Z",
+      "updatedAt": "2026-01-11T07:05:40.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634af34e550e64251566f9",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Student services",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "69634af34e550e64251566fa",
+        "69634af34e550e64251566fb"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T07:02:11.000Z",
+      "updatedAt": "2026-01-11T07:04:10.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634b794e550e64251566fc",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Create answers",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "69634b794e550e64251566fd",
+        "69634b794e550e64251566fe"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T07:04:26.000Z",
+      "updatedAt": "2026-01-11T07:59:40.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634bda4e550e64251566ff",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Student services",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "69634bda4e550e6425156700",
+        "69634bda4e550e6425156701"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T07:06:03.000Z",
+      "updatedAt": "2026-01-11T07:06:14.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634c954e550e6425156705",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Create answers",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "69634c954e550e6425156706",
+        "69634c954e550e6425156707"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T07:09:10.000Z",
+      "updatedAt": "2026-01-11T07:49:26.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634d384e550e642515670b",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Create answers",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "69634d384e550e642515670c",
+        "69634d384e550e642515670d"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T07:11:52.000Z",
+      "updatedAt": "2026-01-11T07:13:10.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634df84e550e6425156711",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": null,
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "69634df84e550e6425156712",
+        "69634df84e550e6425156713"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T07:15:05.000Z",
+      "updatedAt": "2026-01-11T07:15:05.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634e2b4e550e6425156714",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": null,
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "69634e2b4e550e6425156715",
+        "69634e2b4e550e6425156716"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T07:15:55.000Z",
+      "updatedAt": "2026-01-11T07:15:55.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634e474e550e6425156717",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Prompt for more questions",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "69634e474e550e6425156718",
+        "69634e474e550e6425156719"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T07:16:24.000Z",
+      "updatedAt": "2026-01-11T07:17:14.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "696346e54e550e64251566e1",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": null,
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "696346e54e550e64251566e2",
+        "696346e54e550e64251566e3"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T06:44:53.000Z",
+      "updatedAt": "2026-01-11T06:44:53.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "6963480a4e550e64251566e7",
+      "name": "Admissions and process",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "6963480a4e550e64251566e8",
+        "6963480a4e550e64251566e9"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T06:49:47.000Z",
+      "updatedAt": "2026-01-11T06:50:01.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "6963474e4e550e64251566e4",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": null,
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "6963474e4e550e64251566e5",
+        "6963474e4e550e64251566e6"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T06:46:38.000Z",
+      "updatedAt": "2026-01-11T06:46:38.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "6963469b4e550e64251566de",
+      "name": "Simplified_questions",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "6963469b4e550e64251566df",
+        "6963469b4e550e64251566e0"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T06:43:40.000Z",
+      "updatedAt": "2026-01-11T06:47:19.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "6963495b4e550e64251566f0",
+      "name": "Campus Information",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "6963495b4e550e64251566f1",
+        "6963495b4e550e64251566f2"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T06:55:23.000Z",
+      "updatedAt": "2026-01-11T06:55:59.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69634d8c4e550e642515670e",
+      "name": "Untitled prompt",
+      "createdByID": 1657682,
+      "folderID": null,
+      "description": "Create answers",
+      "settings": {
+        "useStructuredOutput": false
+      },
+      "messageOrder": [
+        "69634d8c4e550e642515670f",
+        "69634d8c4e550e6425156710"
+      ],
+      "draft": false,
+      "createdAt": "2026-01-11T07:13:16.000Z",
+      "updatedAt": "2026-01-11T07:13:32.000Z",
+      "updatedByID": 1657682
+    }
+  ],
+  "promptMessages": [
+    {
+      "id": "6963469b4e550e64251566df",
+      "promptID": "6963469b4e550e64251566de",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T06:43:40.000Z"
+    },
+    {
+      "id": "6963469b4e550e64251566e0",
+      "promptID": "6963469b4e550e64251566de",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "Generate a single, comprehensive question that best captures the information needed to address the user’s query or intent and includes the context from the conversation history. User's question:$",
+              {
+                "variableID": "last_utterance"
+              },
+              " \r\nOnly output the optimized question. "
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T06:43:40.000Z"
+    },
+    {
+      "id": "696346e54e550e64251566e3",
+      "promptID": "696346e54e550e64251566e1",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "Generate a single, comprehensive question that best captures the information needed to address the user’s query or intent and includes the context from the conversation history. User's question:$",
+              {
+                "variableID": "last_utterance"
+              },
+              " \r\nOnly output the optimized question. "
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T06:44:53.000Z"
+    },
+    {
+      "id": "696346e54e550e64251566e2",
+      "promptID": "696346e54e550e64251566e1",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              "simplified_questions"
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T06:44:53.000Z"
+    },
+    {
+      "id": "6963474e4e550e64251566e5",
+      "promptID": "6963474e4e550e64251566e4",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T06:46:38.000Z"
+    },
+    {
+      "id": "6963474e4e550e64251566e6",
+      "promptID": "6963474e4e550e64251566e4",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "simplified_questions"
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T06:46:38.000Z"
+    },
+    {
+      "id": "6963480a4e550e64251566e8",
+      "promptID": "6963480a4e550e64251566e7",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T06:49:47.000Z"
+    },
+    {
+      "id": "6963480a4e550e64251566e9",
+      "promptID": "6963480a4e550e64251566e7",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T06:49:47.000Z"
+    },
+    {
+      "id": "6963495b4e550e64251566f1",
+      "promptID": "6963495b4e550e64251566f0",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T06:55:23.000Z"
+    },
+    {
+      "id": "6963495b4e550e64251566f2",
+      "promptID": "6963495b4e550e64251566f0",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T06:55:23.000Z"
+    },
+    {
+      "id": "69634ace4e550e64251566f7",
+      "promptID": "69634ace4e550e64251566f6",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:01:34.000Z"
+    },
+    {
+      "id": "69634ace4e550e64251566f8",
+      "promptID": "69634ace4e550e64251566f6",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "Student services"
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:01:34.000Z"
+    },
+    {
+      "id": "69634af34e550e64251566fa",
+      "promptID": "69634af34e550e64251566f9",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              "Student services available"
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:02:11.000Z"
+    },
+    {
+      "id": "69634af34e550e64251566fb",
+      "promptID": "69634af34e550e64251566f9",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "Student services"
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:02:11.000Z"
+    },
+    {
+      "id": "69634b794e550e64251566fd",
+      "promptID": "69634b794e550e64251566fc",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:04:26.000Z"
+    },
+    {
+      "id": "69634bda4e550e6425156700",
+      "promptID": "69634bda4e550e64251566ff",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:06:03.000Z"
+    },
+    {
+      "id": "69634bda4e550e6425156701",
+      "promptID": "69634bda4e550e64251566ff",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "Student services"
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:06:03.000Z"
+    },
+    {
+      "id": "69634c954e550e6425156706",
+      "promptID": "69634c954e550e6425156705",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:09:10.000Z"
+    },
+    {
+      "id": "69634c954e550e6425156707",
+      "promptID": "69634c954e550e6425156705",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "You are an AI customer support bot helping a customer with their question. Use the provided details below to answer the customers question.\r\nEnsure to keep your answer brief and speak directly to the end customer. You are speaking to them over the phone. Input data: 1. Provided details: ",
+              {
+                "variableID": "696349008bcc479dce29542c"
+              },
+              " \r\nMake sure your response is in the same language as the users last message here: ",
+              {
+                "variableID": "69634b1f8bcc479dce2954d8"
+              },
+              " "
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:09:10.000Z"
+    },
+    {
+      "id": "69634d384e550e642515670c",
+      "promptID": "69634d384e550e642515670b",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:11:52.000Z"
+    },
+    {
+      "id": "69634d384e550e642515670d",
+      "promptID": "69634d384e550e642515670b",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "You are an AI customer support bot helping a customer with their question. Use the provided details below to answer the customers question.\r\nEnsure to keep your answer brief and speak directly to the end customer. You are speaking to them over the phone. Input data: 1. Provided details:",
+              {
+                "variableID": "696349008bcc479dce29542c"
+              },
+              " \r\nMake sure your response is in the same language as the users last message here:",
+              {
+                "variableID": "69634b1f8bcc479dce2954d8"
+              },
+              " "
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:11:52.000Z"
+    },
+    {
+      "id": "69634d8c4e550e642515670f",
+      "promptID": "69634d8c4e550e642515670e",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:13:16.000Z"
+    },
+    {
+      "id": "69634d8c4e550e6425156710",
+      "promptID": "69634d8c4e550e642515670e",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:13:16.000Z"
+    },
+    {
+      "id": "69634df84e550e6425156712",
+      "promptID": "69634df84e550e6425156711",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:15:05.000Z"
+    },
+    {
+      "id": "69634df84e550e6425156713",
+      "promptID": "69634df84e550e6425156711",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:15:05.000Z"
+    },
+    {
+      "id": "69634e2b4e550e6425156715",
+      "promptID": "69634e2b4e550e6425156714",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:15:55.000Z"
+    },
+    {
+      "id": "69634e2b4e550e6425156716",
+      "promptID": "69634e2b4e550e6425156714",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "How else may I help you?"
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:15:55.000Z"
+    },
+    {
+      "id": "69634e474e550e6425156718",
+      "promptID": "69634e474e550e6425156717",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "system",
+        "content": [
+          {
+            "text": [
+              ""
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:16:24.000Z"
+    },
+    {
+      "id": "69634e474e550e6425156719",
+      "promptID": "69634e474e550e6425156717",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "How else may I help you?"
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:16:24.000Z"
+    },
+    {
+      "id": "69634b794e550e64251566fe",
+      "promptID": "69634b794e550e64251566fc",
+      "pairID": null,
+      "type": "role",
+      "data": {
+        "role": "user",
+        "content": [
+          {
+            "text": [
+              "You are an AI customer support bot helping a customer with their question. Use the provided details below to answer the customers question.\r\nEnsure to keep your answer brief and speak directly to the end customer. You are speaking to them over the phone. Input data: 1. Provided details:",
+              {
+                "variableID": "696349008bcc479dce29542c"
+              },
+              " \r\nMake sure your response is in the same language as the users last message here:",
+              {
+                "variableID": "696349fd8bcc479dce295453"
+              },
+              " \r"
+            ]
+          }
+        ]
+      },
+      "createdAt": "2026-01-11T07:04:26.000Z"
+    }
+  ],
+  "events": [],
+  "agents": [
+    {
+      "id": "67db2b56cbe88befffef4623",
+      "name": "Customer support specialist",
+      "createdByID": 1657682,
+      "folderID": null,
+      "settings": {},
+      "description": "An agent template for resolving issues and ensuring customer satisfaction with technical skill and empathy.",
+      "instructions": [
+        {
+          "text": [
+            "Hello, this Angela from DSE Schools of education. Thank you for choosing DSE schools."
+          ]
+        }
+      ],
+      "pathToolOrder": [],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": true,
+        "description": "Triggered the knowledge base when you don't know the answer to a question."
+      },
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "callForwardTool": null,
+      "createdAt": "2025-06-06T13:25:41.000Z",
+      "updatedAt": "2026-01-11T06:21:38.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "69633a4e8bcc479dce295076",
+      "name": "Customer support specialist",
+      "createdByID": 1657682,
+      "folderID": null,
+      "settings": {},
+      "description": "An agent template for resolving issues and ensuring customer satisfaction with technical skill and empathy.",
+      "instructions": [
+        {
+          "text": [
+            "Hi, this Angela from the DSE Schools of Education. Thank you for choosing DSE schools. "
+          ]
+        }
+      ],
+      "pathToolOrder": [],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": true,
+        "messages": null,
+        "description": "Triggered the knowledge base when you don't know the answer to a question."
+      },
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "callForwardTool": null,
+      "createdAt": "2026-01-11T05:51:10.000Z",
+      "updatedAt": "2026-01-11T06:10:28.000Z",
+      "updatedByID": 1657682
+    },
+    {
+      "id": "6963410b8bcc479dce295290",
+      "name": "Untitled agent",
+      "createdByID": 1657682,
+      "folderID": null,
+      "settings": {},
+      "description": null,
+      "instructions": null,
+      "pathToolOrder": [],
+      "webSearchTool": {
+        "enabled": false,
+        "messages": null,
+        "description": "Search the web when external, fresh, or currently updated information is required to answer the user's query accurately."
+      },
+      "knowledgeBaseTool": {
+        "enabled": true,
+        "messages": null,
+        "description": "Searches an external knowledge base to retrieve relevant information, supplementing or replacing the language model's internal context."
+      },
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "callForwardTool": null,
+      "createdAt": "2026-01-11T06:19:55.000Z",
+      "updatedAt": "2026-01-11T06:19:55.000Z",
+      "updatedByID": 1657682
+    }
+  ],
+  "agentAPITools": [],
+  "agentFlowTools": [],
+  "agentPathTools": [],
+  "agentFunctionTools": [],
+  "agentIntegrationTools": [],
+  "agentPathToolVariables": [],
+  "agentFlowToolVariables": [],
+  "agentMcpIntegrationTools": [],
+  "apiTools": [],
+  "apiToolInputVariables": [],
+  "integrationTools": [],
+  "functions": [],
+  "functionPaths": [],
+  "functionVariables": [],
+  "mcpServers": [],
+  "mcpServerTools": [],
+  "mcpIntegrationTools": [],
+  "project": {
+    "type": "chat",
+    "name": "My first AI agent",
+    "image": "https://cm4-production-assets.s3.amazonaws.com/1729190521409-square-onyx-1024.jpg",
+    "teamID": "0NjXLlXbjq",
+    "members": [],
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 1657682,
+    "updatedBy": 1657682,
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "privacy": "private",
+    "apiPrivacy": "public",
+    "_id": "6842ec55e8b75ad3ae0f4d10",
+    "updatedAt": "2026-01-11T10:17:00.168Z",
+    "devVersion": "6842ec55e8b75ad3ae0f4d11",
+    "liveVersion": "6842ec55e8b75ad3ae0f4d12"
+  },
+  "_version": "1.2",
+  "secrets": [],
+  "variableStates": [],
+  "transcriptEvaluations": []
+}
